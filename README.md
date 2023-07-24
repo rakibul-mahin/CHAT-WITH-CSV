@@ -3,6 +3,7 @@
 ## How to use this repo and app
 
 - Clone this repository first.
+  - `git clone https://github.com/rakibul-mahin/CHAT-WITH-CSV.git`
 - Then install all the necessary packages
   - `pip install langchain streamlit openai tabulate python-dotenv`
 - After that run the web app with `streamlit run main.py` in terminal.
