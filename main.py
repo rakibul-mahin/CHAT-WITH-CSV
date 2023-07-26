@@ -9,7 +9,7 @@ import os
 def create_agent(filename):
     llm = OpenAI(temperature=0)
     df = pd.read_csv(filename)
-    return create_pandas_dataframe_agent(llm, df, verbose=True)
+    return create_pandas_dataframe_agent(llm, df, verbose=True, handle_parsing_errors=True)
 
 def query_agent(agent, query):
     prompt = (
@@ -112,6 +112,7 @@ def main():
             agent = create_agent(csv_file.name)
             response = query_agent(agent, user_question)
             decoded_response = decode_response(response)
+            st.spinner()
             write_response(decoded_response)
             
 
