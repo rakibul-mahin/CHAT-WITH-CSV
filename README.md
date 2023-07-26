@@ -3,7 +3,7 @@
 ## How to use this repo and app 📚
 
 - Clone this repository first.
-- Then install all the necessary packages 📦
+- Then install all the necessary packages
   - `pip install langchain streamlit openai tabulate python-dotenv`
 - After that run the web app with `streamlit run main.py` in terminal 🖥️.
 - Get your [OpenAI](<[https://](https://openai.com/)>) API key from their website.
