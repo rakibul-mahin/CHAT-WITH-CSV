@@ -19,10 +19,10 @@ This is how the website would look like after running it for the first time.
 This is how the website would look like after inserting your api key and the file.
 ![After Information](./SCRSHOT/example.PNG)
 
-This is hot the website will show if you want plot a bar graph.
+This is how the website will show if you want plot a bar graph.
 ![Bar Graph](./SCRSHOT/barchart.PNG)
 
-This is hot the website will show if you want plot a line graph.
+This is how the website will show if you want plot a line graph.
 ![Line Graph](./SCRSHOT/linechart.PNG)
 
 ## END
